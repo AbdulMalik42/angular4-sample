@@ -1,0 +1,10 @@
+<p>name is: {{name}}</p>
+<div> age:{{age}}</div>
+
+<button (click)="updateName($event)">update name</button>
+
+<ul>
+  <li *ngFor="let car of carData ; let i = index">
+    {{i+1}}--{{car}}
+  </li>
+</ul>
